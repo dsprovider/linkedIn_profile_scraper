@@ -50,5 +50,8 @@ python linkedin_profile_scraper.py
 This project is licensed under the MIT License.
 
 
+🔗💻🔗💻🔗💻🔗💻🔗💻🔗💻🔗💻🔗🔗💻🔗💻🔗💻🔗💻🔗💻🔗💻🔗💻🔗
+
+
 
 🎉 Happy Scraping! 🎉
