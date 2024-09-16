@@ -88,11 +88,8 @@ def accept_cookies_prompt(driver):
 
 
 def login_to_linkedin(driver):
-    email = "xxx139637@gmail.com"
-    passwd = "2kSD#&ilXt-Nu32"
-
-    # email = "felix.carter.tech@gmail.com"
-    # passwd = "FakeDummyLDAccount@@"
+    email = "<scraping_account>"
+    passwd = "<scraping_account_passwd>"
 
     try:
         driver.get("https://www.linkedin.com/login")
@@ -117,14 +114,13 @@ def login_to_linkedin(driver):
         sign_in_btn = driver.find_element(By.CSS_SELECTOR, 'button[data-litms-control-urn="login-submit"]')
         if sign_in_btn:
             sign_in_btn.click()
-            sleep_for_random_duration(20, 25) # Security Verification Check
-            # sleep_for_random_duration(5, 6)
+            sleep_for_random_duration(5, 6)
 
     except Exception as e:
         print(f">> Error occurred. {type(e)}")
     
 
-# ============= Site Functions ===============================================================================================   
+# ============= Site Scrapers ===============================================================================================   
 
 def parse_linkedin_profile(profile_url, driver):
     try:
@@ -179,10 +175,6 @@ def parse_linkedin_profile(profile_url, driver):
 
     except Exception as e:
         print(f">> Error while scraping URL: '{profile_url}'")
-
-# ============= Site Scrapers ================================================================================================
-
-
 
 # =============================================================================================================================
 
