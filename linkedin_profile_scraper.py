@@ -55,7 +55,6 @@ def get_pc_user_agent():
 # ============= Setup Functions ===============================================================================================
 
 def setup_driver():
-    # ua = UserAgent()
     random_user_agent = get_pc_user_agent()    
 
     # Set up Chrome options
