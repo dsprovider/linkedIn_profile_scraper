@@ -1,10 +1,10 @@
-🚀 LinkedIn Profile Scraper 🖥️
+# 🚀 LinkedIn Profile Scraper 🖥️
 
 
 📊 Extract LinkedIn profile data from an Excel file containing candidate URLs! This script scrapes essential profile information, including the candidate's name, profession, connections, about me section, and education.
 
 
-🔍 Features
+# 🔍 Features
 
 - 🧑‍💼 Name - Scrape the full name of the candidate.
 
@@ -17,7 +17,7 @@
 - 🎓 Education - Scrape the educational background.
 
 
-📂 Input & Output
+# 📂 Input & Output
 
 - Input: An Excel file (.xlsx) containing a list of LinkedIn profile URLs.
 
@@ -28,7 +28,7 @@
     * 📊 An updated Excel file with all the profiles.
  
 
-🛠️ Setup
+# 🛠️ Setup
 
 1. Clone the Repository
 
@@ -45,7 +45,7 @@ cd linkedIn_profile_scraper
 python linkedin_profile_scraper.py
 
 
-🛡️ License
+# 🛡️ License
 
 This project is licensed under the MIT License.
 
@@ -54,4 +54,4 @@ This project is licensed under the MIT License.
 
 
 
-🎉 Happy Scraping! 🎉
+# 🎉 Happy Scraping! 🎉
